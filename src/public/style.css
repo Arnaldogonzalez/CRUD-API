@@ -1,0 +1,26 @@
+body {
+    background: rgba(57,204,204,1);
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+h1{
+    color: rgba(0,32,63,1);
+    font-family: cursive;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+table{
+    margin-top: 25px;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+    background: #cfd8dc;
+}
+
+button{ 
+    font-size: 15px;
+}

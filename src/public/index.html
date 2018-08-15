@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>CRUD API</title>
+</head>
+
+<body>
+  <h1>Product's List</h1>
+
+  <button id="getProducts">
+    Get Products
+  </button>
+
+  <form id="productForm">
+    <input type="text" id="newProduct">
+    <button type="submit">Create Product</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!--App -->
+  <script src="app.js"></script>
+</body>
+
+</html>
